@@ -55,12 +55,20 @@
             <version>7.0.0</version>
             <scope>test</scope>
         </dependency>
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/io.appium/java-client &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>io.appium</groupId>-->
+<!--            <artifactId>java-client</artifactId>-->
+<!--            <version>7.6.0</version>-->
+<!--        </dependency>-->
+
         <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>7.6.0</version>
+            <version>8.0.0</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.json/json -->
         <dependency>
             <groupId>org.json</groupId>

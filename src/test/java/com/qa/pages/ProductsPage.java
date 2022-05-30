@@ -2,20 +2,20 @@ package com.qa.pages;
 
 import com.qa.utils.GlobalParams;
 import com.qa.utils.TestUtils;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class ProductsPage extends MenuPage {
     TestUtils utils = new TestUtils();
 
     @AndroidFindBy(xpath = "//android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]")
-    private MobileElement titleTxt;
+    private WebElement titleTxt;
 
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-PRODUCTS\"]/XCUIElementTypeScrollView")
-    private MobileElement iOSSCrollView;
+    private WebElement iOSSCrollView;
 
     public String getTitle() {
         return getText(titleTxt, "product page title is - ");
@@ -24,7 +24,7 @@ public class ProductsPage extends MenuPage {
     public String getProductTitle(String title) throws Exception {
         switch (new GlobalParams().getPlatformName()) {
             case "Android":
-                return getText(andScrollToElementUsingUiScrollable("text", title), "product title is: " + title);
+            //    return getText(andScrollToElementUsingUiScrollable("text", title), "product title is: " + title);
             case "iOS":
                 return getText(iOSScrollToElementUsingMobileScrollParent(iOSSCrollView, "label == '" + title + "'"),
                         "product title is: " + title);
@@ -51,7 +51,7 @@ public class ProductsPage extends MenuPage {
     public ProductDetailsPage pressProductTitle(String title) throws Exception {
         switch (new GlobalParams().getPlatformName()) {
             case "Android":
-                click(andScrollToElementUsingUiScrollable("text", title), "press " + title + " link");
+             //   click(andScrollToElementUsingUiScrollable("text", title), "press " + title + " link");
                 return new ProductDetailsPage();
             case "iOS":
                 click(iOSScrollToElementUsingMobileScrollParent(iOSSCrollView, "label == '" + title + "'"), "press " + title + " link");
