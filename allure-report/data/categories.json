@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "bcc442bf7e531374",
+        "parentUid" : "55ae1f5d9cb5c0969c5103cbfd22191e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648571375751,
+          "stop" : 1648571392703,
+          "duration" : 16952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "55ae1f5d9cb5c0969c5103cbfd22191e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

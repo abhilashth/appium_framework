@@ -1,0 +1,19 @@
+2022-03-23 07:33:43:248 [Appium] Welcome to Appium v1.22.2
+2022-03-23 07:33:43:249 [Appium] Non-default server args:
+2022-03-23 07:33:43:249 [Appium]   port: 2904
+2022-03-23 07:33:43:249 [Appium]   sessionOverride: true
+2022-03-23 07:33:43:249 [Appium]   logFile: /Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/iOS_iPhone 12 Pro/Server.log
+2022-03-23 07:33:43:257 [Appium] Appium REST http interface listener started on 0.0.0.0:2904
+2022-03-23 07:33:43:307 [HTTP] --> GET /wd/hub/status
+2022-03-23 07:33:43:307 [HTTP] {}
+2022-03-23 07:33:43:307 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-03-23 07:33:43:308 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.2"}}
+2022-03-23 07:33:43:310 [HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+2022-03-23 07:33:43:310 [HTTP] 
+2022-03-23 07:33:43:312 [HTTP] --> GET /wd/hub/status
+2022-03-23 07:33:43:312 [HTTP] {}
+2022-03-23 07:33:43:312 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-03-23 07:33:43:312 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.2"}}
+2022-03-23 07:33:43:313 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2022-03-23 07:33:43:313 [HTTP] 
+2022-03-23 07:34:35:366 [Appium] Received SIGINT - shutting down

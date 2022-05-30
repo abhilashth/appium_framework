@@ -12,8 +12,8 @@ public class PropertyManager {
         InputStream is = null;
         String propsFileName = "config.properties";
 
-        if(props.isEmpty()){
-            try{
+        if (props.isEmpty()) {
+            try {
                 utils.log().info("loading config properties");
                 is = getClass().getClassLoader().getResourceAsStream(propsFileName);
                 props.load(is);
@@ -22,7 +22,7 @@ public class PropertyManager {
                 utils.log().fatal("Failed to load config properties. ABORT!!" + e.toString());
                 throw e;
             } finally {
-                if(is != null){
+                if (is != null) {
                     is.close();
                 }
             }

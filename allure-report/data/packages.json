@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.qa.runners.Nexus6TestNGRunnerTest",
+    "children" : [ {
+      "name" : "scenario",
+      "uid" : "e68420a900b4c4ef",
+      "parentUid" : "2b886d98e7cbb0a566934723b177938b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571367015,
+        "stop" : 1648571371358,
+        "duration" : 4343
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+    }, {
+      "name" : "scenario",
+      "uid" : "ce49648a6834ff81",
+      "parentUid" : "2b886d98e7cbb0a566934723b177938b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571371382,
+        "stop" : 1648571375748,
+        "duration" : 4366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+    }, {
+      "name" : "scenario",
+      "uid" : "bcc442bf7e531374",
+      "parentUid" : "2b886d98e7cbb0a566934723b177938b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1648571375751,
+        "stop" : 1648571392703,
+        "duration" : 16952
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : false,
+      "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+    } ],
+    "uid" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  } ]
+}

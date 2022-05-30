@@ -1,0 +1,5 @@
+[Android_OnePlus INFO ] 2022-03-22 13:56:04.663 ServerManager:20 - starting appium server
+[Android_OnePlus INFO ] 2022-03-22 13:56:05.553 ServerManager:29 - Appium server started
+[Android_OnePlus INFO ] 2022-03-22 13:56:21.787 DriverManager:31 - initializing Appium driver
+[Android_OnePlus INFO ] 2022-03-22 13:58:10.570 CapabilitiesManager:22 - getting capabilities
+[Android_OnePlus INFO ] 2022-03-22 13:58:10.576 CapabilitiesManager:35 - Android AppUrl is/Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk

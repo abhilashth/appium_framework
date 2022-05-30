@@ -6,53 +6,53 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 public class LoginPage extends BasePage {
-	TestUtils utils = new TestUtils();
+    TestUtils utils = new TestUtils();
 
-	@AndroidFindBy (accessibility = "test-Username") 
-	@iOSXCUITFindBy (id = "test-Username")
-	private MobileElement usernameTxtFld;
+    @AndroidFindBy(accessibility = "test-Username")
+    @iOSXCUITFindBy(id = "test-Username")
+    private MobileElement usernameTxtFld;
 
-	@AndroidFindBy (accessibility = "test-Password") 
-	@iOSXCUITFindBy (id = "test-Password")
-	private MobileElement passwordTxtFld;
-	
-	@AndroidFindBy (accessibility = "test-LOGIN") 
-	@iOSXCUITFindBy (id = "test-LOGIN")
-	private MobileElement loginBtn;
-	
-	@AndroidFindBy (xpath = "//android.view.ViewGroup[@content-desc=\"test-Error message\"]/android.widget.TextView") 
-	@iOSXCUITFindBy (xpath = "//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText")
-	private MobileElement errTxt;
+    @AndroidFindBy(accessibility = "test-Password")
+    @iOSXCUITFindBy(id = "test-Password")
+    private MobileElement passwordTxtFld;
 
-	public LoginPage(){
-	}
+    @AndroidFindBy(accessibility = "test-LOGIN")
+    @iOSXCUITFindBy(id = "test-LOGIN")
+    private MobileElement loginBtn;
 
-public LoginPage enterUserName(String username) throws InterruptedException {
-	clear(usernameTxtFld);	
-	sendKeys(usernameTxtFld, username, "login with " + username);
-	return this;
-}
+    @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"test-Error message\"]/android.widget.TextView")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText")
+    private MobileElement errTxt;
 
-public LoginPage enterPassword(String password) {
-	clear(passwordTxtFld);
-	sendKeys(passwordTxtFld, password, "password is " + password);
-	return this;
-}
+    public LoginPage() {
+    }
 
-public ProductsPage pressLoginBtn() {
-	click(loginBtn, "press login button");
-	return new ProductsPage();
-}
+    public LoginPage enterUserName(String username) throws InterruptedException {
+        clear(usernameTxtFld);
+        sendKeys(usernameTxtFld, username, "login with " + username);
+        return this;
+    }
 
-public ProductsPage login(String username, String password) throws InterruptedException {
-	enterUserName(username);
-	enterPassword(password);
-	return pressLoginBtn();
-}
+    public LoginPage enterPassword(String password) {
+        clear(passwordTxtFld);
+        sendKeys(passwordTxtFld, password, "password is " + password);
+        return this;
+    }
 
-public String getErrTxt() {
-	String err = getText(errTxt, "error text is - ");
-	return err;
-}
+    public ProductsPage pressLoginBtn() {
+        click(loginBtn, "press login button");
+        return new ProductsPage();
+    }
+
+    public ProductsPage login(String username, String password) throws InterruptedException {
+        enterUserName(username);
+        enterPassword(password);
+        return pressLoginBtn();
+    }
+
+    public String getErrTxt() {
+        String err = getText(errTxt, "error text is - ");
+        return err;
+    }
 
 }

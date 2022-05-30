@@ -1,0 +1,212 @@
+{
+  "uid" : "ce49648a6834ff81",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "com.qa.runners.RunnerBase.scenario",
+  "historyId" : "2edbc3ed847bdd5218cbd27faaaa1e3b",
+  "time" : {
+    "start" : 1648571371382,
+    "stop" : 1648571375748,
+    "duration" : 4366
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 12,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1648571360914,
+      "stop" : 1648571366913,
+      "duration" : 5999
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1648571392710,
+      "stop" : 1648571393636,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "scenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Nexus6"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "host",
+    "value" : "Sangus-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "21752@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Login with invalid password\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Login scenarios]\""
+  }, {
+    "name" : "deviceName",
+    "value" : "Nexus6"
+  }, {
+    "name" : "emulator",
+    "value" : "true"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "runType",
+    "value" : "Android"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c659af54ea68e2f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571308058,
+        "stop" : 1648571313263,
+        "duration" : 5205
+      }
+    }, {
+      "uid" : "3ec9264682704bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571199097,
+        "stop" : 1648571203438,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "fb5373214bc7f402",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571034120,
+        "stop" : 1648571038938,
+        "duration" : 4818
+      }
+    }, {
+      "uid" : "43255122f4d27088",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570962189,
+        "stop" : 1648570966701,
+        "duration" : 4512
+      }
+    }, {
+      "uid" : "6013e033fea580df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570860578,
+        "stop" : 1648570864715,
+        "duration" : 4137
+      }
+    }, {
+      "uid" : "8ed034e4d85a4a70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570720570,
+        "stop" : 1648570725384,
+        "duration" : 4814
+      }
+    }, {
+      "uid" : "36a8bf4b40c1c6b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570643381,
+        "stop" : 1648570647655,
+        "duration" : 4274
+      }
+    }, {
+      "uid" : "1b185158e63359f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570409165,
+        "stop" : 1648570412725,
+        "duration" : 3560
+      }
+    }, {
+      "uid" : "7d9de7c17569a276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570267657,
+        "stop" : 1648570273177,
+        "duration" : 5520
+      }
+    }, {
+      "uid" : "b59a9cc2430229a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648570047490,
+        "stop" : 1648570052323,
+        "duration" : 4833
+      }
+    }, {
+      "uid" : "4177b6c600d76eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648569791584,
+        "stop" : 1648569795975,
+        "duration" : 4391
+      }
+    }, {
+      "uid" : "18088bcdd20908ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648569741657,
+        "stop" : 1648569746346,
+        "duration" : 4689
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce49648a6834ff81.json",
+  "parameterValues" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+}

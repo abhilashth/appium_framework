@@ -1,0 +1,239 @@
+{
+  "uid" : "bcc442bf7e531374",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "com.qa.runners.RunnerBase.scenario",
+  "historyId" : "1d3a21f354075c746b06d02c79917d60",
+  "time" : {
+    "start" : 1648571375751,
+    "stop" : 1648571392703,
+    "duration" : 16952
+  },
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.qa.pages.BasePage.waitForVisibility(BasePage.java:34)\n\tat com.qa.pages.BasePage.getAttribute(BasePage.java:76)\n\tat com.qa.pages.BasePage.getText(BasePage.java:89)\n\tat com.qa.pages.ProductsPage.getTitle(ProductsPage.java:21)\n\tat com.qa.stepdef.LoginStepDef.iShouldSeeProductsPageWithTitle(LoginStepDef.java:33)\n\tat ✽.I should see Products page with title \"PRODUCTS\"(file:///Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/src/test/resources/Login.feature:26)\nCaused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.qa.pages.BasePage.waitForVisibility(BasePage.java:34)\n\tat com.qa.pages.BasePage.getAttribute(BasePage.java:76)\n\tat com.qa.pages.BasePage.getText(BasePage.java:89)\n\tat com.qa.pages.ProductsPage.getTitle(ProductsPage.java:21)\n\tat com.qa.stepdef.LoginStepDef.iShouldSeeProductsPageWithTitle(LoginStepDef.java:33)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:57)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:95)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)\n\tat com.qa.runners.RunnerBase.scenario(RunnerBase.java:202)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@51da0b08 (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)\n\t... 49 more\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView})\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Sangus-MacBook-Pro.local', ip: '2406:b400:d5:4bf5:e044:788b:b05b:8ae9%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '15.0.6'\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 51 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1648571360914,
+      "stop" : 1648571366913,
+      "duration" : 5999
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.qa.pages.BasePage.waitForVisibility(BasePage.java:34)\n\tat com.qa.pages.BasePage.getAttribute(BasePage.java:76)\n\tat com.qa.pages.BasePage.getText(BasePage.java:89)\n\tat com.qa.pages.ProductsPage.getTitle(ProductsPage.java:21)\n\tat com.qa.stepdef.LoginStepDef.iShouldSeeProductsPageWithTitle(LoginStepDef.java:33)\n\tat ✽.I should see Products page with title \"PRODUCTS\"(file:///Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/src/test/resources/Login.feature:26)\nCaused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.qa.pages.BasePage.waitForVisibility(BasePage.java:34)\n\tat com.qa.pages.BasePage.getAttribute(BasePage.java:76)\n\tat com.qa.pages.BasePage.getText(BasePage.java:89)\n\tat com.qa.pages.ProductsPage.getTitle(ProductsPage.java:21)\n\tat com.qa.stepdef.LoginStepDef.iShouldSeeProductsPageWithTitle(LoginStepDef.java:33)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:57)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:95)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:75)\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110)\n\tat io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110)\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)\n\tat com.qa.runners.RunnerBase.scenario(RunnerBase.java:202)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@51da0b08 (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)\n\t... 49 more\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView})\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'Sangus-MacBook-Pro.local', ip: '2406:b400:d5:4bf5:e044:788b:b05b:8ae9%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '15.0.6'\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\t... 51 more\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "542a7a9bc49422ed",
+      "name" : "Test",
+      "source" : "542a7a9bc49422ed.png",
+      "type" : "image/png",
+      "size" : 1696326
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1648571392710,
+      "stop" : 1648571393636,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "scenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Nexus6"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "host",
+    "value" : "Sangus-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "21752@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Login with valid user name and password\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Login scenarios]\""
+  }, {
+    "name" : "deviceName",
+    "value" : "Nexus6"
+  }, {
+    "name" : "emulator",
+    "value" : "true"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "runType",
+    "value" : "Android"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93cef268d30ff408",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648571313266,
+        "stop" : 1648571328465,
+        "duration" : 15199
+      }
+    }, {
+      "uid" : "d5e2d5c0a8104e24",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648571203440,
+        "stop" : 1648571219176,
+        "duration" : 15736
+      }
+    }, {
+      "uid" : "18c31a48164343ad",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648571038941,
+        "stop" : 1648571060687,
+        "duration" : 21746
+      }
+    }, {
+      "uid" : "55037360648427e8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570966703,
+        "stop" : 1648570981896,
+        "duration" : 15193
+      }
+    }, {
+      "uid" : "7150b00bdd95fc16",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570864718,
+        "stop" : 1648570880323,
+        "duration" : 15605
+      }
+    }, {
+      "uid" : "6afd771328a0e5ab",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570725388,
+        "stop" : 1648570765507,
+        "duration" : 40119
+      }
+    }, {
+      "uid" : "a6bd4d424f6144fb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570647658,
+        "stop" : 1648570662811,
+        "duration" : 15153
+      }
+    }, {
+      "uid" : "30775abcb4e441ff",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570412728,
+        "stop" : 1648570453640,
+        "duration" : 40912
+      }
+    }, {
+      "uid" : "d020800f2f2bed6e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570273181,
+        "stop" : 1648570289626,
+        "duration" : 16445
+      }
+    }, {
+      "uid" : "5c71d4e59f4df8b4",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648570052324,
+        "stop" : 1648570067603,
+        "duration" : 15279
+      }
+    }, {
+      "uid" : "cfd8b4b17e445a74",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648569795977,
+        "stop" : 1648569813807,
+        "duration" : 17830
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bcc442bf7e531374.json",
+  "parameterValues" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+}

@@ -1,0 +1,24 @@
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:10.286 DriverManager:37 - initializing Appium driver
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:10.288 CapabilitiesManager:22 - getting capabilities
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:10.288 CapabilitiesManager:53 - appUrl is/Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/src/test/resources/apps/SwagLabsMobileApp.app
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:16.134 DriverManager:57 - Driver is initialized
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:17.491 BasePage:71 - login with invalidUsername
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:19.896 BasePage:71 - password is secret_sauce
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:21.116 BasePage:54 - press login button
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:24.589 BasePage:97 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:25.049 VideoManager:35 - video path: iOS_iPhone 12 Pro/Videos/Login with invalid user name.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:27.765 BasePage:71 - login with standard_user
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:30.602 BasePage:71 - password is invalidPassword
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:31.636 BasePage:54 - press login button
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:35.440 BasePage:97 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:36.010 VideoManager:35 - video path: iOS_iPhone 12 Pro/Videos/Login with invalid password.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:38.644 BasePage:71 - login with standard_user
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:41.866 BasePage:71 - password is secret_sauce
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:42.897 BasePage:54 - press login button
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:48.014 BasePage:97 - product page title is - PRODUCTS
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:48.608 VideoManager:35 - video path: iOS_iPhone 12 Pro/Videos/Login with valid user name and password.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:53.277 BasePage:71 - login with standard_user
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:56.447 BasePage:71 - password is secret_sauce
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:30:58.024 BasePage:54 - press login button
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:31:01.433 VideoManager:35 - video path: iOS_iPhone 12 Pro/Videos/Validate product info on Products page.mp4
+[iOS_iPhone 12 Pro INFO ] 2022-03-23 13:31:13.515 VideoManager:35 - video path: iOS_iPhone 12 Pro/Videos/Validate product info on Product Details page.mp4

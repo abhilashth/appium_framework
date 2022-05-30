@@ -1,0 +1,68 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Nexus6",
+      "children" : [ {
+        "name" : "com.qa.runners.Nexus6TestNGRunnerTest",
+        "children" : [ {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "e68420a900b4c4ef",
+          "parentUid" : "a5c9c78917d114d95f358a834779ee44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648571367015,
+            "stop" : 1648571371358,
+            "duration" : 4343
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 12,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+        }, {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "ce49648a6834ff81",
+          "parentUid" : "a5c9c78917d114d95f358a834779ee44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1648571371382,
+            "stop" : 1648571375748,
+            "duration" : 4366
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 12,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+        }, {
+          "name" : "Runs Cucumber Scenarios",
+          "uid" : "bcc442bf7e531374",
+          "parentUid" : "a5c9c78917d114d95f358a834779ee44",
+          "status" : "broken",
+          "time" : {
+            "start" : 1648571375751,
+            "stop" : 1648571392703,
+            "duration" : 16952
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : false,
+          "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+        } ],
+        "uid" : "a5c9c78917d114d95f358a834779ee44"
+      } ],
+      "uid" : "89854760ccb3759e9d0ca4b087869af7"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

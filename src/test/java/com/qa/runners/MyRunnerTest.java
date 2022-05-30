@@ -18,12 +18,12 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
                 , "html:target/cucumber"
                 , "summary"
                 , "me.jvt.cucumber.report.PrettyReports:target/Pixel3/cucumber-html-reports"}
-        ,features = {"src/test/resources"}
-        ,glue = {"com.qa.stepdef"}
-        ,snippets = CAMELCASE
-        ,dryRun=false
-        ,monochrome=true
-        ,tags = "@test"
+        , features = {"src/test/resources"}
+        , glue = {"com.qa.stepdef"}
+        , snippets = CAMELCASE
+        , dryRun = false
+        , monochrome = true
+        , tags = "@test"
 
 )
 
@@ -37,19 +37,19 @@ public class MyRunnerTest {
         ThreadContext.put("ROUTINGKEY", params.getPlatformName() + "_"
                 + params.getDeviceName());
 
-        new ServerManager().startServer();
-        new DriverManager().initializeDriver();
+//        new ServerManager().startServer();
+//        new DriverManager().initializeDriver();
     }
 
     @AfterClass
-    public static void quit(){
+    public static void quit() {
         DriverManager driverManager = new DriverManager();
-        if(driverManager.getDriver() != null){
+        if (driverManager.getDriver() != null) {
             driverManager.getDriver().quit();
             driverManager.setDriver(null);
         }
         ServerManager serverManager = new ServerManager();
-        if(serverManager.getServer() != null){
+        if (serverManager.getServer() != null) {
             serverManager.getServer().stop();
         }
     }

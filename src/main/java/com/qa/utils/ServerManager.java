@@ -12,15 +12,15 @@ public class ServerManager {
     private static ThreadLocal<AppiumDriverLocalService> server = new ThreadLocal<>();
     TestUtils utils = new TestUtils();
 
-    public AppiumDriverLocalService getServer(){
+    public AppiumDriverLocalService getServer() {
         return server.get();
     }
 
-    public void startServer(){
+    public void startServer() {
         utils.log().info("starting appium server");
         AppiumDriverLocalService server = WindowsGetAppiumService();
         server.start();
-        if(server == null || !server.isRunning()){
+        if (server == null || !server.isRunning()) {
             utils.log().fatal("Appium server not started. ABORT!!!");
             throw new AppiumServerHasNotBeenStartedLocallyException("Appium server not started. ABORT!!!");
         }

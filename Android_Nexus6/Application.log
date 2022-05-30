@@ -1,0 +1,4 @@
+[Android_Nexus6 INFO ] 2022-04-16 09:44:19.149 PropertyManager:17 - loading config properties
+[Android_Nexus6 INFO ] 2022-04-16 09:44:19.160 DriverManager:38 - initializing Appium driver
+[Android_Nexus6 INFO ] 2022-04-16 09:44:19.173 CapabilitiesManager:22 - getting capabilities
+[Android_Nexus6 INFO ] 2022-04-16 09:44:19.178 CapabilitiesManager:35 - Android AppUrl is/Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk

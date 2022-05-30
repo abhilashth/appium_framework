@@ -1,0 +1,114 @@
+{
+  "uid" : "43255122f4d27088",
+  "name" : "Runs Cucumber Scenarios",
+  "fullName" : "com.qa.runners.RunnerBase.scenario",
+  "historyId" : "2edbc3ed847bdd5218cbd27faaaa1e3b",
+  "time" : {
+    "start" : 1648570962189,
+    "stop" : 1648570966701,
+    "duration" : 4512
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1648570950177,
+      "stop" : 1648570956746,
+      "duration" : 6569
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1648570983012,
+      "stop" : 1648570983744,
+      "duration" : 732
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "scenario"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Nexus6"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.runners.Nexus6TestNGRunnerTest"
+  }, {
+    "name" : "host",
+    "value" : "Sangus-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "20997@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"Login with invalid password\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Optional[Login scenarios]\""
+  }, {
+    "name" : "deviceName",
+    "value" : "Nexus6"
+  }, {
+    "name" : "emulator",
+    "value" : "true"
+  }, {
+    "name" : "platformName",
+    "value" : "Android"
+  }, {
+    "name" : "runType",
+    "value" : "Android"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43255122f4d27088.json",
+  "parameterValues" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+}

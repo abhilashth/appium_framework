@@ -24,7 +24,7 @@ public class BasePage {
     private AppiumDriver<?> driver;
     TestUtils utils = new TestUtils();
 
-    public BasePage(){
+    public BasePage() {
         this.driver = new DriverManager().getDriver();
         PageFactory.initElements(new AppiumFieldDecorator(this.driver), this);
     }
@@ -84,7 +84,7 @@ public class BasePage {
 
     public String getText(MobileElement e, String msg) {
         String txt;
-        switch(new GlobalParams().getPlatformName()){
+        switch (new GlobalParams().getPlatformName()) {
             case "Android":
                 txt = getAttribute(e, "text");
                 break;
@@ -100,7 +100,7 @@ public class BasePage {
 
     public String getText(By e, String msg) {
         String txt;
-        switch(new GlobalParams().getPlatformName()){
+        switch (new GlobalParams().getPlatformName()) {
             case "Android":
                 txt = getAttribute(e, "text");
                 break;
@@ -125,7 +125,7 @@ public class BasePage {
     public MobileElement andScrollToElementUsingUiScrollable(String childLocAttr, String childLocValue) {
         return (MobileElement) ((FindsByAndroidUIAutomator) driver).findElementByAndroidUIAutomator(
                 "new UiScrollable(new UiSelector()" + ".scrollable(true)).scrollIntoView("
-                        + "new UiSelector()."+ childLocAttr +"(\"" + childLocValue + "\"));");
+                        + "new UiSelector()." + childLocAttr + "(\"" + childLocValue + "\"));");
     }
 
     public MobileElement iOSScrollToElementUsingMobileScroll(MobileElement e) {
@@ -142,12 +142,12 @@ public class BasePage {
     }
 
     public By iOSScrollToElementUsingMobileScrollParent(MobileElement parentE, String predicateString) {
-        RemoteWebElement parent = (RemoteWebElement)parentE;
+        RemoteWebElement parent = (RemoteWebElement) parentE;
         String parentID = parent.getId();
         HashMap<String, String> scrollObject = new HashMap<String, String>();
         scrollObject.put("element", parentID);
 //	  scrollObject.put("direction", "down");
-	  scrollObject.put("predicateString", predicateString);
+        scrollObject.put("predicateString", predicateString);
 //	  scrollObject.put("name", "test-ADD TO CART");
 //        scrollObject.put("toVisible", "sdfnjksdnfkld");
         driver.executeScript("mobile:scroll", scrollObject);
@@ -184,7 +184,7 @@ public class BasePage {
                 swipe(startX, startY, endX, endY, 1000);
             }
         }
-        if(!isFound){
+        if (!isFound) {
             throw new Exception("Element not found");
         }
         return element;
@@ -218,7 +218,7 @@ public class BasePage {
                 swipe(startX, startY, endX, endY, 1000);
             }
         }
-        if(!isFound){
+        if (!isFound) {
             throw new Exception("Element not found");
         }
         return element;

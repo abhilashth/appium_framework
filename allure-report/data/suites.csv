@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 29 21:59:27 IST 2022","Tue Mar 29 21:59:31 IST 2022","4343","Suite","Nexus6","com.qa.runners.Nexus6TestNGRunnerTest","com.qa.runners.Nexus6TestNGRunnerTest","scenario","Runs Cucumber Scenarios",""
+"broken","Tue Mar 29 21:59:35 IST 2022","Tue Mar 29 21:59:52 IST 2022","16952","Suite","Nexus6","com.qa.runners.Nexus6TestNGRunnerTest","com.qa.runners.Nexus6TestNGRunnerTest","scenario","Runs Cucumber Scenarios",""
+"passed","Tue Mar 29 21:59:31 IST 2022","Tue Mar 29 21:59:35 IST 2022","4366","Suite","Nexus6","com.qa.runners.Nexus6TestNGRunnerTest","com.qa.runners.Nexus6TestNGRunnerTest","scenario","Runs Cucumber Scenarios",""

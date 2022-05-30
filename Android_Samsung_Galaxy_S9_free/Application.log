@@ -1,0 +1,30 @@
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:31:15.092 DriverManager:37 - initializing Appium driver
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:31:15.091 DriverManager:37 - initializing Appium driver
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:31:15.097 CapabilitiesManager:22 - getting capabilities
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:31:15.097 CapabilitiesManager:22 - getting capabilities
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:32:33.922 DriverManager:57 - Driver is initialized
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:32:40.481 BasePage:71 - login with invalidUsername
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:33:02.763 BasePage:71 - password is secret_sauce
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:33:07.093 BasePage:54 - press login button
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:33:26.225 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Login with invalid user name.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:33:43.683 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Login with invalid password.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:34:00.984 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Login with valid user name and password.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:34:17.476 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Validate product info on Products page.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:34:33.143 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Validate product info on Product Details page.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:29.365 DriverManager:57 - Driver is initialized
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:35.271 BasePage:71 - login with invalidUsername
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:40.577 BasePage:71 - password is secret_sauce
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:45.130 BasePage:54 - press login button
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:50.072 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:53.338 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Login with invalid user name.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:35:59.230 BasePage:71 - login with standard_user
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:06.464 BasePage:71 - password is invalidPassword
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:09.828 BasePage:54 - press login button
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:14.548 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:17.583 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Login with invalid password.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:23.125 BasePage:71 - login with standard_user
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:28.929 BasePage:71 - password is secret_sauce
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:36:31.719 BasePage:54 - press login button
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:37:02.276 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Login with valid user name and password.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:37:22.091 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Validate product info on Products page.mp4
+[Android_Samsung_Galaxy_S9_free INFO ] 2022-03-23 13:37:39.826 VideoManager:35 - video path: Android_Samsung_Galaxy_S9_free/Videos/Validate product info on Product Details page.mp4

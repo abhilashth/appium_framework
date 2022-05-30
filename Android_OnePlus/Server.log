@@ -1,0 +1,19 @@
+2022-03-22 08:26:05:267 [Appium] Welcome to Appium v1.22.2
+2022-03-22 08:26:05:267 [Appium] Non-default server args:
+2022-03-22 08:26:05:267 [Appium]   port: 11389
+2022-03-22 08:26:05:267 [Appium]   sessionOverride: true
+2022-03-22 08:26:05:267 [Appium]   logFile: /Users/sangu/Documents/code_folder/appium-cucumberbdd-testng/Android_OnePlus/Server.log
+2022-03-22 08:26:05:275 [Appium] Appium REST http interface listener started on 0.0.0.0:11389
+2022-03-22 08:26:05:535 [HTTP] --> GET /wd/hub/status
+2022-03-22 08:26:05:535 [HTTP] {}
+2022-03-22 08:26:05:538 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-03-22 08:26:05:540 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.2"}}
+2022-03-22 08:26:05:546 [HTTP] <-- GET /wd/hub/status 200 10 ms - 68
+2022-03-22 08:26:05:547 [HTTP] 
+2022-03-22 08:26:05:551 [HTTP] --> GET /wd/hub/status
+2022-03-22 08:26:05:551 [HTTP] {}
+2022-03-22 08:26:05:551 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-03-22 08:26:05:552 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.2"}}
+2022-03-22 08:26:05:553 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2022-03-22 08:26:05:553 [HTTP] 
+2022-03-22 08:28:10:614 [Appium] Received SIGINT - shutting down

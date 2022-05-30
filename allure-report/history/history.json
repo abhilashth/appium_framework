@@ -1,0 +1,60 @@
+{
+  "1d3a21f354075c746b06d02c79917d60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bcc442bf7e531374",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //android.widget.ScrollView[@content-desc=\"test-PRODUCTS\"]/preceding-sibling::android.view.ViewGroup/android.widget.TextView}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648571375751,
+        "stop" : 1648571392703,
+        "duration" : 16952
+      }
+    } ]
+  },
+  "7f2bf4269ffe327b72e98647f8ff1720" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e68420a900b4c4ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571367015,
+        "stop" : 1648571371358,
+        "duration" : 4343
+      }
+    } ]
+  },
+  "2edbc3ed847bdd5218cbd27faaaa1e3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce49648a6834ff81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648571371382,
+        "stop" : 1648571375748,
+        "duration" : 4366
+      }
+    } ]
+  }
+}

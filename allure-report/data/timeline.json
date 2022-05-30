@@ -1,0 +1,707 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Sangus-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "20820@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "7150b00bdd95fc16",
+        "parentUid" : "a2ed9bb2f5a1815ddc4ccfa05ee976b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570864718,
+          "stop" : 1648570880323,
+          "duration" : 15605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "6013e033fea580df",
+        "parentUid" : "a2ed9bb2f5a1815ddc4ccfa05ee976b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570860578,
+          "stop" : 1648570864715,
+          "duration" : 4137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "95f46f91376ff6d9",
+        "parentUid" : "a2ed9bb2f5a1815ddc4ccfa05ee976b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570855109,
+          "stop" : 1648570860554,
+          "duration" : 5445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "a2ed9bb2f5a1815ddc4ccfa05ee976b7"
+    }, {
+      "name" : "21752@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "e68420a900b4c4ef",
+        "parentUid" : "7f48dd533ffa6eb80aaabebb0bb9d28c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571367015,
+          "stop" : 1648571371358,
+          "duration" : 4343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "ce49648a6834ff81",
+        "parentUid" : "7f48dd533ffa6eb80aaabebb0bb9d28c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571371382,
+          "stop" : 1648571375748,
+          "duration" : 4366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "bcc442bf7e531374",
+        "parentUid" : "7f48dd533ffa6eb80aaabebb0bb9d28c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648571375751,
+          "stop" : 1648571392703,
+          "duration" : 16952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "7f48dd533ffa6eb80aaabebb0bb9d28c"
+    }, {
+      "name" : "21396@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "3ec9264682704bc1",
+        "parentUid" : "7681a91dd4881e49501079b267870ada",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571199097,
+          "stop" : 1648571203438,
+          "duration" : 4341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "5cbd2a50c6a81a47",
+        "parentUid" : "7681a91dd4881e49501079b267870ada",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571193740,
+          "stop" : 1648571199073,
+          "duration" : 5333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "d5e2d5c0a8104e24",
+        "parentUid" : "7681a91dd4881e49501079b267870ada",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648571203440,
+          "stop" : 1648571219176,
+          "duration" : 15736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "7681a91dd4881e49501079b267870ada"
+    }, {
+      "name" : "19600@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "df786a68fce22abb",
+        "parentUid" : "dd1367fe93e5ac47152d00948482d151",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648569775581,
+          "stop" : 1648569791558,
+          "duration" : 15977
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "cfd8b4b17e445a74",
+        "parentUid" : "dd1367fe93e5ac47152d00948482d151",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648569795977,
+          "stop" : 1648569813807,
+          "duration" : 17830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "4177b6c600d76eb",
+        "parentUid" : "dd1367fe93e5ac47152d00948482d151",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648569791584,
+          "stop" : 1648569795975,
+          "duration" : 4391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "dd1367fe93e5ac47152d00948482d151"
+    }, {
+      "name" : "20502@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "36a8bf4b40c1c6b2",
+        "parentUid" : "f049d001e10bc6dfdaa2715d1f45b293",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570643381,
+          "stop" : 1648570647655,
+          "duration" : 4274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "4c0ea646b84e46cc",
+        "parentUid" : "f049d001e10bc6dfdaa2715d1f45b293",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570638612,
+          "stop" : 1648570643355,
+          "duration" : 4743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "a6bd4d424f6144fb",
+        "parentUid" : "f049d001e10bc6dfdaa2715d1f45b293",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570647658,
+          "stop" : 1648570662811,
+          "duration" : 15153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "f049d001e10bc6dfdaa2715d1f45b293"
+    }, {
+      "name" : "21163@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(16)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "18c31a48164343ad",
+        "parentUid" : "d6c32e40769c18b04e65671cb57af8c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648571038941,
+          "stop" : 1648571060687,
+          "duration" : 21746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "decec635bf2c4639",
+        "parentUid" : "d6c32e40769c18b04e65671cb57af8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571028258,
+          "stop" : 1648571034094,
+          "duration" : 5836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "fb5373214bc7f402",
+        "parentUid" : "d6c32e40769c18b04e65671cb57af8c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571034120,
+          "stop" : 1648571038938,
+          "duration" : 4818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "d6c32e40769c18b04e65671cb57af8c0"
+    }, {
+      "name" : "20048@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "77c0c9a753aea074",
+        "parentUid" : "fdef944a2b076fd238acf7dc6ef730b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570261921,
+          "stop" : 1648570267635,
+          "duration" : 5714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "7d9de7c17569a276",
+        "parentUid" : "fdef944a2b076fd238acf7dc6ef730b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570267657,
+          "stop" : 1648570273177,
+          "duration" : 5520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "d020800f2f2bed6e",
+        "parentUid" : "fdef944a2b076fd238acf7dc6ef730b1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570273181,
+          "stop" : 1648570289626,
+          "duration" : 16445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "fdef944a2b076fd238acf7dc6ef730b1"
+    }, {
+      "name" : "21596@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "c659af54ea68e2f8",
+        "parentUid" : "983c054aa1ba7a48a8a98b756f6547e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571308058,
+          "stop" : 1648571313263,
+          "duration" : 5205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "93cef268d30ff408",
+        "parentUid" : "983c054aa1ba7a48a8a98b756f6547e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648571313266,
+          "stop" : 1648571328465,
+          "duration" : 15199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "338cf2898e032eda",
+        "parentUid" : "983c054aa1ba7a48a8a98b756f6547e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648571301850,
+          "stop" : 1648571307168,
+          "duration" : 5318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "983c054aa1ba7a48a8a98b756f6547e0"
+    }, {
+      "name" : "20997@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "55037360648427e8",
+        "parentUid" : "297102278639485bb2b41e03163f67ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570966703,
+          "stop" : 1648570981896,
+          "duration" : 15193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "43255122f4d27088",
+        "parentUid" : "297102278639485bb2b41e03163f67ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570962189,
+          "stop" : 1648570966701,
+          "duration" : 4512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "d32cbfc148be2ca5",
+        "parentUid" : "297102278639485bb2b41e03163f67ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570956766,
+          "stop" : 1648570962160,
+          "duration" : 5394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "297102278639485bb2b41e03163f67ad"
+    }, {
+      "name" : "20660@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(16)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "6afd771328a0e5ab",
+        "parentUid" : "48e2f0f6fdc6007c40947724f22994c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570725388,
+          "stop" : 1648570765507,
+          "duration" : 40119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "beb96074378fbcc1",
+        "parentUid" : "48e2f0f6fdc6007c40947724f22994c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570715975,
+          "stop" : 1648570720541,
+          "duration" : 4566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "8ed034e4d85a4a70",
+        "parentUid" : "48e2f0f6fdc6007c40947724f22994c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570720570,
+          "stop" : 1648570725384,
+          "duration" : 4814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "48e2f0f6fdc6007c40947724f22994c8"
+    }, {
+      "name" : "20265@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(16)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "1b185158e63359f",
+        "parentUid" : "c818993e9ea322292ffbc6aa80a6c896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570409165,
+          "stop" : 1648570412725,
+          "duration" : 3560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "83195c6876fd3ab7",
+        "parentUid" : "c818993e9ea322292ffbc6aa80a6c896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570403968,
+          "stop" : 1648570409138,
+          "duration" : 5170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "30775abcb4e441ff",
+        "parentUid" : "c818993e9ea322292ffbc6aa80a6c896",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570412728,
+          "stop" : 1648570453640,
+          "duration" : 40912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "c818993e9ea322292ffbc6aa80a6c896"
+    }, {
+      "name" : "19809@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "5c71d4e59f4df8b4",
+        "parentUid" : "5e1a61be20a614b74ad5256e7226b369",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648570052324,
+          "stop" : 1648570067603,
+          "duration" : 15279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with valid user name and password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "a23e91db41775f8d",
+        "parentUid" : "5e1a61be20a614b74ad5256e7226b369",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570042249,
+          "stop" : 1648570047467,
+          "duration" : 5218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "b59a9cc2430229a",
+        "parentUid" : "5e1a61be20a614b74ad5256e7226b369",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648570047490,
+          "stop" : 1648570052323,
+          "duration" : 4833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "5e1a61be20a614b74ad5256e7226b369"
+    }, {
+      "name" : "19498@Sangus-MacBook-Pro.local.TestNG-test=Nexus6-1(14)",
+      "children" : [ {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "18088bcdd20908ea",
+        "parentUid" : "b3343084e9ad685248d761db08adb88b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648569741657,
+          "stop" : 1648569746346,
+          "duration" : 4689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid password\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      }, {
+        "name" : "Runs Cucumber Scenarios",
+        "uid" : "7a2e39e425886076",
+        "parentUid" : "b3343084e9ad685248d761db08adb88b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648569735660,
+          "stop" : 1648569741632,
+          "duration" : 5972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "\"Login with invalid user name\"", "\"Optional[Login scenarios]\"", "Nexus6", "true", "Android", "Android" ]
+      } ],
+      "uid" : "b3343084e9ad685248d761db08adb88b"
+    } ],
+    "uid" : "2633e088c06adcb014bd4a9dcb186d70"
+  } ]
+}
